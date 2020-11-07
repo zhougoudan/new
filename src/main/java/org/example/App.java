@@ -10,7 +10,7 @@ public class App
     {
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            System.out.println("驱动1始功");
+            System.out.println("驱动始功");
         }
         catch(Exception e){
             e.printStackTrace();
